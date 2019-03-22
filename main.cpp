@@ -1,10 +1,8 @@
-
-#include "student.h"
+#include "Account.h"
+#include "csvhelper.h"
 
 int main(){
-    Student A;
-    A.password = "helloworld";
-    string myuser = getLineHidden();
-    A.changePassword();
+    system("cls");
+    loginView();
     return 0;
 }

@@ -1,5 +1,5 @@
 #include "interface.h"
-#include "student.h"
+
 
 void gotoxy(int column, int line)
 {
